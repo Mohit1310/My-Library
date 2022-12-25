@@ -1,9 +1,15 @@
 <h2 class="page-header">Search Authors</h2>
 
 <form action="/authors" method="get" value="<%= searchOptions.name %>">
-  <label for="name">Name</label>
-  <input type="text" name="name" placeholder="Search Here" />
-  <button type="submit">Search</button>
+  <div class="form-row">
+    <div class="form-item">
+      <label for="name">Name</label>
+      <input type="text" name="name" placeholder="Search Here" />
+    </div>
+  </div>
+  <div class="form-row form-row-end">
+    <button class="btn btn-primary" type="submit">Search</button>
+  </div>
 </form>
 <br />
 
