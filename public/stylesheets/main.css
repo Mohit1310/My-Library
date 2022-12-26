@@ -17,6 +17,7 @@
 }
 
 body {
+  margin-top: 1rem;
   background: linear-gradient(
     to right,
     var(--color-background-dark),

@@ -8,4 +8,15 @@
     font-size: 1.5rem;
 }
 
+::placeholder{
+    color: rgba(255, 255, 255, 0.7) !important;
+}
 
+input[type='text']{
+    padding-left: 1rem;
+}
+
+input[type='date']{
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+}
