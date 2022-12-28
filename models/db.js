@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-
+// This is database
 mongoose.connect(
   "mongodb://0.0.0.0:27017/mylibrary",
   { useNewUrlParser: true },
